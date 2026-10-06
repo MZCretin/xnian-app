@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · 二维码&条形码 / Privacy Policy · QR & Barcode</title>
+<style>
+  :root{
+    --bg:#ffffff; --card:#f6f6f7; --text:#1c1c1e; --muted:#6b6b70;
+    --brand:#FF7400; --border:#e6e6e8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#000000; --card:#1c1c1e; --text:#f2f2f2; --muted:#a0a0a6; --border:#2c2c2e; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height:1.7;-webkit-text-size-adjust:100%}
+  .wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+  header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+  .logo{width:44px;height:44px;border-radius:10px;background:var(--brand);flex:0 0 auto;
+    display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px}
+  h1{font-size:22px;margin:18px 0 4px}
+  h2{font-size:17px;margin:28px 0 6px}
+  .muted{color:var(--muted);font-size:14px}
+  .toggle{display:inline-flex;border:1px solid var(--border);border-radius:999px;overflow:hidden;margin:16px 0 4px}
+  .toggle button{appearance:none;border:0;background:transparent;color:var(--text);
+    padding:7px 16px;font-size:14px;cursor:pointer}
+  .toggle button.active{background:var(--brand);color:#fff}
+  a{color:var(--brand)}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:4px 18px;margin-top:12px}
+  footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+  [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">QR</div>
+    <div>
+      <div style="font-weight:700">二维码&条形码 · QR &amp; Barcode</div>
+      <div class="muted">隐私政策 / Privacy Policy</div>
+    </div>
+  </header>
+
+  <div class="toggle" role="tablist">
+    <button id="btn-zh" class="active" onclick="setLang('zh')">中文</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- 中文 -->
+  <section class="lang-zh">
+    <h1>隐私政策</h1>
+    <p class="muted">最后更新：2026-10-06</p>
+    <div class="card">
+      <p>二维码&条形码（以下简称“本应用”）非常重视您的隐私。本政策说明本应用如何处理您的信息。</p>
+    </div>
+    <h2>我们收集的数据</h2>
+    <p><strong>无。</strong>本应用不收集、不上传到任何服务器、不分享任何个人信息。本应用没有账号体系、没有后端服务器，也没有任何第三方统计、广告或追踪 SDK。</p>
+    <h2>保存在您设备上的数据</h2>
+    <p>扫码与生成的历史记录、以及应用偏好（语言、主题、扫码声音/震动）仅保存在您的设备本地，不会离开您的设备，您可随时在应用内删除。</p>
+    <h2>相机</h2>
+    <p>本应用仅在您扫描二维码/条形码时使用相机，且全部在设备本地实时处理。相机画面不会被录制、保存或上传。</p>
+    <h2>相册</h2>
+    <p>在您授权后，本应用可读取您选择的相册图片以识别其中的码，并可将生成的码图片保存到相册。这些操作均在本地进行，本应用不会上传您的照片。</p>
+    <h2>网络</h2>
+    <p>唯一的网络行为是可选且由您主动触发的：当您使用“扫描网络图片”并输入网址时，本应用会下载该图片以识别其中的码。除此之外本应用不发起任何网络请求。</p>
+    <h2>跳转其他应用</h2>
+    <p>当您对扫码结果进行操作（打开链接、拨打电话、发送邮件/短信、查看地图、添加联系人、复制 WiFi 密码）时，本应用会将请求交给对应的系统应用处理。</p>
+    <h2>儿童</h2>
+    <p>本应用不收集任何人的数据，包括儿童。</p>
+    <h2>变更</h2>
+    <p>我们可能更新本政策，“最后更新”日期将反映相应变更。</p>
+    <h2>联系方式</h2>
+    <p>有关本政策的问题：<a href="mailto:mxnzp_tools@163.com">mxnzp_tools@163.com</a></p>
+  </section>
+
+  <!-- English -->
+  <section class="lang-en" hidden>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Last updated: 2026-10-06</p>
+    <div class="card">
+      <p>QR &amp; Barcode (“the App”) is designed to protect your privacy. This policy explains what the App does and does not do with your information.</p>
+    </div>
+    <h2>Data we collect</h2>
+    <p><strong>None.</strong> The App does not collect, store on any server, or share any personal information. There is no account system, no backend server, and no third‑party analytics, advertising, or tracking SDKs.</p>
+    <h2>Data stored on your device</h2>
+    <p>Your scan/generation history and app preferences (language, theme, scan sound/vibration) are stored locally on your device only. They never leave your device and can be deleted anytime within the App.</p>
+    <h2>Camera</h2>
+    <p>The App uses the camera only to scan QR codes and barcodes in real time, on your device. Camera images are processed locally and are not recorded, stored, or transmitted.</p>
+    <h2>Photos</h2>
+    <p>With your permission, the App can read an image you choose to detect a code in it, and can save a generated code image to your library. These actions happen locally; the App does not upload your photos.</p>
+    <h2>Network</h2>
+    <p>The only network activity is optional and user‑initiated: when you use “Scan from image URL” and enter a web address, the App downloads that image to detect a code in it. The App makes no other network requests.</p>
+    <h2>Opening other apps</h2>
+    <p>When you act on a scan result (open a link, call, send an email/SMS, view a map, add a contact, copy a Wi‑Fi password), the App hands the request to the corresponding system app.</p>
+    <h2>Children</h2>
+    <p>The App does not collect data from anyone, including children.</p>
+    <h2>Changes</h2>
+    <p>We may update this policy; the “Last updated” date will reflect any changes.</p>
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="mailto:mxnzp_tools@163.com">mxnzp_tools@163.com</a></p>
+  </section>
+
+  <footer>© 2026 二维码&条形码 · QR &amp; Barcode</footer>
+</div>
+
+<script>
+  function setLang(l){
+    document.querySelectorAll('.lang-zh').forEach(e=>e.hidden = (l!=='zh'));
+    document.querySelectorAll('.lang-en').forEach(e=>e.hidden = (l!=='en'));
+    document.getElementById('btn-zh').classList.toggle('active', l==='zh');
+    document.getElementById('btn-en').classList.toggle('active', l==='en');
+    document.documentElement.lang = (l==='zh') ? 'zh-CN' : 'en';
+  }
+  // 按浏览器语言默认
+  if ((navigator.language||'').toLowerCase().indexOf('zh') !== 0){ setLang('en'); }
+</script>
+</body>
+</html>
